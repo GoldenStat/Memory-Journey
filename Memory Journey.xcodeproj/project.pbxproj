@@ -7,18 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41494A8226EB5DFA00A20283 /* Memory_JourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A8126EB5DFA00A20283 /* Memory_JourneyApp.swift */; };
-		41494A8426EB5DFA00A20283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A8326EB5DFA00A20283 /* ContentView.swift */; };
-		41494A8626EB5E0300A20283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41494A8526EB5E0300A20283 /* Assets.xcassets */; };
-		41494A8926EB5E0300A20283 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41494A8826EB5E0300A20283 /* Preview Assets.xcassets */; };
+		41494AAA26EB652200A20283 /* MemoryJourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A8F26EB64FD00A20283 /* MemoryJourneyApp.swift */; };
+		41494AAB26EB652200A20283 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9126EB651800A20283 /* Constants.swift */; };
+		41494AAD26EB652200A20283 /* MPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9326EB651800A20283 /* MPicture.swift */; };
+		41494AAE26EB652200A20283 /* MObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9426EB651800A20283 /* MObject.swift */; };
+		41494AAF26EB652200A20283 /* MemoryPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9526EB651800A20283 /* MemoryPath.swift */; };
+		41494AB026EB652200A20283 /* MPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9626EB651800A20283 /* MPlace.swift */; };
+		41494AB126EB652200A20283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41494A9726EB651800A20283 /* Assets.xcassets */; };
+		41494AB226EB652200A20283 /* MRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9826EB651800A20283 /* MRegion.swift */; };
+		41494AB626EB652200A20283 /* MemoryObjectIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9E26EB652100A20283 /* MemoryObjectIconView.swift */; };
+		41494AB726EB652200A20283 /* RegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494A9F26EB652100A20283 /* RegionView.swift */; };
+		41494AB826EB652200A20283 /* MemoryARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA026EB652100A20283 /* MemoryARView.swift */; };
+		41494AB926EB652200A20283 /* MemoryObjectExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA126EB652100A20283 /* MemoryObjectExport.swift */; };
+		41494ABA26EB652200A20283 /* MapSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA226EB652100A20283 /* MapSelectionView.swift */; };
+		41494ABB26EB652200A20283 /* PlaceObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA326EB652100A20283 /* PlaceObjectView.swift */; };
+		41494ABC26EB652200A20283 /* MemoriesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA426EB652100A20283 /* MemoriesMap.swift */; };
+		41494ABD26EB652200A20283 /* MemoryObjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA526EB652100A20283 /* MemoryObjectsListView.swift */; };
+		41494ABE26EB652200A20283 /* MemoryObjectEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA626EB652100A20283 /* MemoryObjectEditor.swift */; };
+		41494ABF26EB652200A20283 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA726EB652100A20283 /* ContentView.swift */; };
+		41494AC026EB652200A20283 /* MemoryObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AA826EB652100A20283 /* MemoryObjectView.swift */; };
+		41494AC126EB652200A20283 /* MemoryJourney.key in Resources */ = {isa = PBXBuildFile; fileRef = 41494AA926EB652200A20283 /* MemoryJourney.key */; };
+		41494AC426EB7CAC00A20283 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AC326EB7CAC00A20283 /* CameraView.swift */; };
+		41494AC626EB8B0400A20283 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AC526EB8B0400A20283 /* Coordinator.swift */; };
+		41494AC926F0D6B600A20283 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494AC826F0D6B400A20283 /* PhotoPickerView.swift */; };
+		41494ACB26F0E47900A20283 /* Memories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41494ACA26F0E47800A20283 /* Memories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41494A7E26EB5DFA00A20283 /* Memory Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41494A8126EB5DFA00A20283 /* Memory_JourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory_JourneyApp.swift; sourceTree = "<group>"; };
-		41494A8326EB5DFA00A20283 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		41494A8526EB5E0300A20283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41494A8826EB5E0300A20283 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41494A8F26EB64FD00A20283 /* MemoryJourneyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryJourneyApp.swift; sourceTree = "<group>"; };
+		41494A9126EB651800A20283 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		41494A9326EB651800A20283 /* MPicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPicture.swift; sourceTree = "<group>"; };
+		41494A9426EB651800A20283 /* MObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MObject.swift; sourceTree = "<group>"; };
+		41494A9526EB651800A20283 /* MemoryPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryPath.swift; sourceTree = "<group>"; };
+		41494A9626EB651800A20283 /* MPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPlace.swift; sourceTree = "<group>"; };
+		41494A9726EB651800A20283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41494A9826EB651800A20283 /* MRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRegion.swift; sourceTree = "<group>"; };
+		41494A9E26EB652100A20283 /* MemoryObjectIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryObjectIconView.swift; sourceTree = "<group>"; };
+		41494A9F26EB652100A20283 /* RegionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionView.swift; sourceTree = "<group>"; };
+		41494AA026EB652100A20283 /* MemoryARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryARView.swift; sourceTree = "<group>"; };
+		41494AA126EB652100A20283 /* MemoryObjectExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryObjectExport.swift; sourceTree = "<group>"; };
+		41494AA226EB652100A20283 /* MapSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSelectionView.swift; sourceTree = "<group>"; };
+		41494AA326EB652100A20283 /* PlaceObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceObjectView.swift; sourceTree = "<group>"; };
+		41494AA426EB652100A20283 /* MemoriesMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesMap.swift; sourceTree = "<group>"; };
+		41494AA526EB652100A20283 /* MemoryObjectsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryObjectsListView.swift; sourceTree = "<group>"; };
+		41494AA626EB652100A20283 /* MemoryObjectEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryObjectEditor.swift; sourceTree = "<group>"; };
+		41494AA726EB652100A20283 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41494AA826EB652100A20283 /* MemoryObjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryObjectView.swift; sourceTree = "<group>"; };
+		41494AA926EB652200A20283 /* MemoryJourney.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = MemoryJourney.key; sourceTree = "<group>"; };
+		41494AC326EB7CAC00A20283 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		41494AC526EB8B0400A20283 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		41494AC826F0D6B400A20283 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		41494ACA26F0E47800A20283 /* Memories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +91,13 @@
 		41494A8026EB5DFA00A20283 /* Memory Journey */ = {
 			isa = PBXGroup;
 			children = (
-				41494A8126EB5DFA00A20283 /* Memory_JourneyApp.swift */,
-				41494A8326EB5DFA00A20283 /* ContentView.swift */,
-				41494A8526EB5E0300A20283 /* Assets.xcassets */,
+				41494AC226EB656A00A20283 /* Docs */,
+				41494A9126EB651800A20283 /* Constants.swift */,
+				41494A8F26EB64FD00A20283 /* MemoryJourneyApp.swift */,
+				41494AA726EB652100A20283 /* ContentView.swift */,
+				41494AC826F0D6B400A20283 /* PhotoPickerView.swift */,
+				41494A9026EB651800A20283 /* Models */,
+				41494A9C26EB652100A20283 /* Views */,
 				41494A8726EB5E0300A20283 /* Preview Content */,
 			);
 			path = "Memory Journey";
@@ -62,9 +106,58 @@
 		41494A8726EB5E0300A20283 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				41494A8826EB5E0300A20283 /* Preview Assets.xcassets */,
+				41494A9726EB651800A20283 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41494A9026EB651800A20283 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41494ACA26F0E47800A20283 /* Memories.swift */,
+				41494A9626EB651800A20283 /* MPlace.swift */,
+				41494A9826EB651800A20283 /* MRegion.swift */,
+				41494A9426EB651800A20283 /* MObject.swift */,
+				41494A9326EB651800A20283 /* MPicture.swift */,
+				41494A9526EB651800A20283 /* MemoryPath.swift */,
+				41494AC526EB8B0400A20283 /* Coordinator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41494A9C26EB652100A20283 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41494A9D26EB652100A20283 /* MemoryObjectListViews */,
+				41494AA426EB652100A20283 /* MemoriesMap.swift */,
+				41494A9F26EB652100A20283 /* RegionView.swift */,
+				41494AA226EB652100A20283 /* MapSelectionView.swift */,
+				41494AA326EB652100A20283 /* PlaceObjectView.swift */,
+				41494AA526EB652100A20283 /* MemoryObjectsListView.swift */,
+				41494AA626EB652100A20283 /* MemoryObjectEditor.swift */,
+				41494AA826EB652100A20283 /* MemoryObjectView.swift */,
+				41494AC326EB7CAC00A20283 /* CameraView.swift */,
+				41494AA126EB652100A20283 /* MemoryObjectExport.swift */,
+				41494AA026EB652100A20283 /* MemoryARView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41494A9D26EB652100A20283 /* MemoryObjectListViews */ = {
+			isa = PBXGroup;
+			children = (
+				41494A9E26EB652100A20283 /* MemoryObjectIconView.swift */,
+			);
+			path = MemoryObjectListViews;
+			sourceTree = "<group>";
+		};
+		41494AC226EB656A00A20283 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				41494AA926EB652200A20283 /* MemoryJourney.key */,
+			);
+			name = Docs;
+			path = ../Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41494A8926EB5E0300A20283 /* Preview Assets.xcassets in Resources */,
-				41494A8626EB5E0300A20283 /* Assets.xcassets in Resources */,
+				41494AC126EB652200A20283 /* MemoryJourney.key in Resources */,
+				41494AB126EB652200A20283 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +230,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41494A8426EB5DFA00A20283 /* ContentView.swift in Sources */,
-				41494A8226EB5DFA00A20283 /* Memory_JourneyApp.swift in Sources */,
+				41494ABA26EB652200A20283 /* MapSelectionView.swift in Sources */,
+				41494AAA26EB652200A20283 /* MemoryJourneyApp.swift in Sources */,
+				41494AAF26EB652200A20283 /* MemoryPath.swift in Sources */,
+				41494ABD26EB652200A20283 /* MemoryObjectsListView.swift in Sources */,
+				41494AAD26EB652200A20283 /* MPicture.swift in Sources */,
+				41494AC426EB7CAC00A20283 /* CameraView.swift in Sources */,
+				41494AB926EB652200A20283 /* MemoryObjectExport.swift in Sources */,
+				41494ABE26EB652200A20283 /* MemoryObjectEditor.swift in Sources */,
+				41494ACB26F0E47900A20283 /* Memories.swift in Sources */,
+				41494AB226EB652200A20283 /* MRegion.swift in Sources */,
+				41494AB626EB652200A20283 /* MemoryObjectIconView.swift in Sources */,
+				41494AC026EB652200A20283 /* MemoryObjectView.swift in Sources */,
+				41494ABF26EB652200A20283 /* ContentView.swift in Sources */,
+				41494AB826EB652200A20283 /* MemoryARView.swift in Sources */,
+				41494AB726EB652200A20283 /* RegionView.swift in Sources */,
+				41494AB026EB652200A20283 /* MPlace.swift in Sources */,
+				41494AC626EB8B0400A20283 /* Coordinator.swift in Sources */,
+				41494ABC26EB652200A20283 /* MemoriesMap.swift in Sources */,
+				41494AAB26EB652200A20283 /* Constants.swift in Sources */,
+				41494AAE26EB652200A20283 /* MObject.swift in Sources */,
+				41494AC926F0D6B600A20283 /* PhotoPickerView.swift in Sources */,
+				41494ABB26EB652200A20283 /* PlaceObjectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

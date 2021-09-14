@@ -1,18 +1,18 @@
 //
 //  ContentView.swift
-//  Memory Journey
+//  Shared
 //
-//  Created by Alexander Völz on 10.09.21.
+//  Created by Alexander Völz on 02.08.20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("some Content")
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
